@@ -9,6 +9,8 @@ class Index(TemplateView):
 class Error404(TemplateView):
     template_name = "core/404.html"
 
+class Blog(TemplateView):
+    template_name = "core/blog.html"
 class BlogSingle(TemplateView):
     template_name = "core/blog-single.html"
 

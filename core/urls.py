@@ -5,6 +5,7 @@ urlpatterns = [
     path('', views.Index.as_view(), name='index'),
     path('404/', views.Error404.as_view(), name='404'),
     path('blog-single/', views.BlogSingle.as_view(), name='blog-single'),
+    path('blog/', views.Blog.as_view(), name="blog"),
     path('contact/', views.Contact.as_view(), name='contact'),
     path('portfolio-details/', views.PortfolioDetails.as_view(), name='portfolio-details'),
 ]
